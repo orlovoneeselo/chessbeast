@@ -55,7 +55,7 @@
             Color color = ch[0] > 90 ? Color.White : Color.Black;
 
             IChessFactory<Figure> figureFactory = new FigureFactory.FigureFactory(figureType, color);
-            return new Square<Figure> { Figure = figureFactory.CreateEntity() };
+            return new Square<Figure>(figureFactory.CreateEntity());
         }
     }
 }
