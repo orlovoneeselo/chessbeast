@@ -3,3 +3,24 @@
 ################################################################################
 
 /ChessBeast.Models/bin/Debug/netcoreapp2.2
+/ChessBeast.IFactory/obj/Debug/netcoreapp2.2
+/ChessBeast.IFactory/bin/Debug/netcoreapp2.2
+/ChessBeast.IFactory/obj
+/ChessBeast.FigureFactory/obj/Debug/netcoreapp2.2
+/ChessBeast.FigureFactory/bin/Debug/netcoreapp2.2
+/ChessBeast.Extensions/obj/Debug/netcoreapp2.2
+/ChessBeast.Extensions/obj
+/ChessBeast.Extensions/bin/Debug/netcoreapp2.2
+/ChessBeast.Engine/bin/Debug/netcoreapp2.2
+/ChessBeast.Engine/obj
+/ChessBeast.FigureFactory/obj
+/.vs/ChessBeast/DesignTimeBuild
+/.vs/ChessBeast/v16/Server/sqlite3
+/.vs/ChessBeast/v16
+/ChessBeast/bin/Debug/netcoreapp2.2
+/ChessBeast/obj
+/ChessBeast.BoardFactory/bin/Debug/netcoreapp2.2
+/ChessBeast.BoardFactory/obj
+/ChessBeast.Models/obj
+/ChessBeast.Services/obj
+/ChessBeast.Services/bin/Debug/netcoreapp2.2
