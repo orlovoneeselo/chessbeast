@@ -6,8 +6,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChessBeast.AI\ChessBeast.AI.csproj" />
     <ProjectReference Include="..\ChessBeast.BoardFactory\ChessBeast.BoardFactory.csproj" />
-    <ProjectReference Include="..\ChessBeast.Engine\ChessBeast.Engine.csproj" />
     <ProjectReference Include="..\ChessBeast.FigureFactory\ChessBeast.FigureFactory.csproj" />
     <ProjectReference Include="..\ChessBeast.IFactory\ChessBeast.IFactory.csproj" />
     <ProjectReference Include="..\ChessBeast.Models\ChessBeast.Models.csproj" />

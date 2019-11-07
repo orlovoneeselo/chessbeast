@@ -24,3 +24,7 @@
 /ChessBeast.Models/obj
 /ChessBeast.Services/obj
 /ChessBeast.Services/bin/Debug/netcoreapp2.2
+/ChessBeast.AI/bin/Debug/netcoreapp2.2
+/ChessBeast.AI/obj
+/ChessBeast.Engine.BoardManager/obj
+/ChessBeast.Engine.MovesGenerator/obj
