@@ -1,6 +1,6 @@
 ﻿namespace ChessBeast.IFactory
 {
-    public interface IChessFactory<Tout> where Tout : class
+    public interface IChessFactory<out Tout> where Tout : class
     {
         Tout CreateEntity();
     }

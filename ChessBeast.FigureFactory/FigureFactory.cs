@@ -20,13 +20,9 @@
         private Color Color { get; set; }
         public Figure CreateEntity()
         {
-            Figure entity = null;
-            var type = ((FigureValues[])Enum.GetValues(typeof(FigureValues)))
+            FigureValues type = ((FigureValues[])Enum.GetValues(typeof(FigureValues)))
                 .FirstOrDefault(x => x == FigureType);
-            var figureType = Type.GetType(typeAssembly);
-            entity = (Figure)Activator.CreateInstance(figureType, new object[] { Color });
-
-            return entity;
+            return (Figure)Activator.CreateInstance(Type.GetType(typeAssembly), new object[] { Color });
         }
     }
 
