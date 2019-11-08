@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.MovesGene
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.BoardManager", "ChessBeast.Engine.BoardManager\ChessBeast.Engine.BoardManager.csproj", "{2A90CA6E-0469-4BC5-BE82-01A786536322}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.MovesValidator", "ChessBeast.Engine.MovesValidator\ChessBeast.Engine.MovesValidator.csproj", "{64CEEC53-B247-4314-8492-5492795D9A7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -77,6 +79,10 @@ Global
 		{2A90CA6E-0469-4BC5-BE82-01A786536322}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A90CA6E-0469-4BC5-BE82-01A786536322}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A90CA6E-0469-4BC5-BE82-01A786536322}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64CEEC53-B247-4314-8492-5492795D9A7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64CEEC53-B247-4314-8492-5492795D9A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64CEEC53-B247-4314-8492-5492795D9A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64CEEC53-B247-4314-8492-5492795D9A7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -89,6 +95,7 @@ Global
 		{D9160540-CEC0-4D07-B4CE-1CBB87740FBC} = {8B5B1169-29B5-469B-8A4C-46DA3DA08493}
 		{368C5012-1480-425C-99BE-CEB10E815B57} = {FFB076C0-5E08-4DB7-A15E-01C89ED78B06}
 		{2A90CA6E-0469-4BC5-BE82-01A786536322} = {FFB076C0-5E08-4DB7-A15E-01C89ED78B06}
+		{64CEEC53-B247-4314-8492-5492795D9A7C} = {FFB076C0-5E08-4DB7-A15E-01C89ED78B06}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {55018A7F-FF9C-41A5-A7CB-F139451043E6}

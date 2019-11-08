@@ -28,3 +28,5 @@
 /ChessBeast.AI/obj
 /ChessBeast.Engine.BoardManager/obj
 /ChessBeast.Engine.MovesGenerator/obj
+/ChessBeast.Engine.MovesValidator/obj
+/ChessBeast.Engine.Helpers/obj
