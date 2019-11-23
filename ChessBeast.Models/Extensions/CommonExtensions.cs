@@ -1,4 +1,4 @@
-﻿namespace ChessBeast.Extensions
+﻿namespace ChessBeast.Models.Extensions
 {
     using System.IO;
     using System.Runtime.Serialization.Formatters.Binary;

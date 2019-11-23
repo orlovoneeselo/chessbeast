@@ -2,15 +2,15 @@
 {
     using ChessBeast.Models.Figures.Base;
 
-    public sealed class Board
+    public class Board
     {
-        public Board(Square<Figure>[,] matrix)
+        public Board(Square[,] matrix)
         {
             this.Matrix = matrix;
         }
-        public Square<Figure>[,] Matrix { get; set; }
+        public Square[,] Matrix { get; set; }
 
-        public Square<Figure> this[int x, int y]
+        public Square this[int x, int y]
         {
             get
             {

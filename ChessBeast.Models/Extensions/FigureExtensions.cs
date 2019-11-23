@@ -1,4 +1,4 @@
-﻿namespace ChessBeast.Extensions
+﻿namespace ChessBeast.Models.Extensions
 {
     using System.Linq;
     using ChessBeast.Models.Enums;
@@ -9,8 +9,8 @@
     {
         public static bool IsHorizontalOrVerticalAtackingFigure(this Figure figure)
         {
-            IEnumerable<FigureValues> figures = new List<FigureValues> { FigureValues.Queen, FigureValues.Rook, FigureValues.Bishop };
-            return figures.Any(x => x == figure.Value);
+            IEnumerable<FigureNames> figures = new List<FigureNames> { FigureNames.Queen, FigureNames.Rook, FigureNames.Bishop };
+            return figures.Any(x => x == figure.Name);
         }
         public static bool IsFriendyFigureWith(this Figure figure, Figure targetFigure)
         {

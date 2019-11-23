@@ -1,9 +1,9 @@
 ﻿namespace ChessBeast.Engine.MovesValidator.Validators
 {
     using ChessBeast.Engine.MovesValidator.Validators.Contract;
-    using ChessBeast.Extensions;
     using ChessBeast.Models.Basis;
     using ChessBeast.Models.Enums;
+    using ChessBeast.Models.Extensions;
 
     public class KingLineAbandonmentValidator : IValidator
     {
@@ -25,9 +25,8 @@
                     {
                         break;
                     }
-                    if (currentFigure.IsHorizontalOrVerticalAtackingFigure())
+                    if (currentFigure.IsHorizontalOrVerticalAtackingFigure() )
                     {
-
                     }
                 }
             }

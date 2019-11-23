@@ -5,6 +5,10 @@
 
     public class MovesValidator : IMovesValidator
     {
+        public MovesValidator()
+        {
+            //
+        }
         public bool ValidateMove(Board board, Move move)
         {
             return Validate(board , move);

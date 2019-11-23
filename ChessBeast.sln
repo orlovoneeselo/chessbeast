@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast", "ChessBeast\ChessBeast.csproj", "{6871B9AF-92C6-4804-88B6-D078F104794C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Models", "ChessBeast.Models\ChessBeast.Models.csproj", "{89A0A781-81EF-407B-A326-6252BA36F207}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Services", "ChessBeast.Services\ChessBeast.Services.csproj", "{F04C9438-D45C-479E-B4F4-82792D62F07E}"
@@ -23,15 +21,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Extensions", "Ch
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AI", "AI", "{8B5B1169-29B5-469B-8A4C-46DA3DA08493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.AI", "ChessBeast.AI\ChessBeast.AI.csproj", "{D9160540-CEC0-4D07-B4CE-1CBB87740FBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.AI", "ChessBeast.AI\ChessBeast.AI.csproj", "{D9160540-CEC0-4D07-B4CE-1CBB87740FBC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{FFB076C0-5E08-4DB7-A15E-01C89ED78B06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.MovesGenerator", "ChessBeast.Engine.MovesGenerator\ChessBeast.Engine.MovesGenerator.csproj", "{368C5012-1480-425C-99BE-CEB10E815B57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Engine.MovesGenerator", "ChessBeast.Engine.MovesGenerator\ChessBeast.Engine.MovesGenerator.csproj", "{368C5012-1480-425C-99BE-CEB10E815B57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.BoardManager", "ChessBeast.Engine.BoardManager\ChessBeast.Engine.BoardManager.csproj", "{2A90CA6E-0469-4BC5-BE82-01A786536322}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Engine.BoardManager", "ChessBeast.Engine.BoardManager\ChessBeast.Engine.BoardManager.csproj", "{2A90CA6E-0469-4BC5-BE82-01A786536322}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChessBeast.Engine.MovesValidator", "ChessBeast.Engine.MovesValidator\ChessBeast.Engine.MovesValidator.csproj", "{64CEEC53-B247-4314-8492-5492795D9A7C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.Engine.MovesValidator", "ChessBeast.Engine.MovesValidator\ChessBeast.Engine.MovesValidator.csproj", "{64CEEC53-B247-4314-8492-5492795D9A7C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ChessBeast.ConsoleApp", "ChessBeast.ConsoleApp\ChessBeast.ConsoleApp.csproj", "{BEF6574E-0267-4C76-B5CF-08EAECE1CC6D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,10 +39,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6871B9AF-92C6-4804-88B6-D078F104794C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6871B9AF-92C6-4804-88B6-D078F104794C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6871B9AF-92C6-4804-88B6-D078F104794C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6871B9AF-92C6-4804-88B6-D078F104794C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{89A0A781-81EF-407B-A326-6252BA36F207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{89A0A781-81EF-407B-A326-6252BA36F207}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89A0A781-81EF-407B-A326-6252BA36F207}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -83,6 +79,10 @@ Global
 		{64CEEC53-B247-4314-8492-5492795D9A7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64CEEC53-B247-4314-8492-5492795D9A7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64CEEC53-B247-4314-8492-5492795D9A7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEF6574E-0267-4C76-B5CF-08EAECE1CC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEF6574E-0267-4C76-B5CF-08EAECE1CC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEF6574E-0267-4C76-B5CF-08EAECE1CC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEF6574E-0267-4C76-B5CF-08EAECE1CC6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ChessBeast.Extensions\ChessBeast.Extensions.csproj" />
     <ProjectReference Include="..\ChessBeast.IFactory\ChessBeast.IFactory.csproj" />
     <ProjectReference Include="..\ChessBeast.Models\ChessBeast.Models.csproj" />
   </ItemGroup>

@@ -1,7 +1,7 @@
 ﻿namespace ChessBeast.Models.Enums
 {
     using System.ComponentModel;
-    public enum FigureValues
+    public enum FigureNames
     {
         [Description("K")]
         King = int.MaxValue / 2,

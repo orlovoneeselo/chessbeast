@@ -1,12 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\ChessBeast.BoardFactory\ChessBeast.BoardFactory.csproj" />
-    <ProjectReference Include="..\ChessBeast.Models\ChessBeast.Models.csproj" />
+    <ProjectReference Include="..\ChessBeast.Engine.BoardManager\ChessBeast.Engine.BoardManager.csproj" />
   </ItemGroup>
 
 </Project>

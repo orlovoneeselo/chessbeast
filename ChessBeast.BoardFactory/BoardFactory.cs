@@ -1,10 +1,10 @@
 ﻿namespace ChessBeast.BoardFactory
 {
     using ChessBeast.BoardFactory.Contract;
-    using ChessBeast.Extensions;
     using ChessBeast.IFactory;
     using ChessBeast.Models.Basis;
     using ChessBeast.Models.Enums;
+    using ChessBeast.Models.Extensions;
     using ChessBeast.Models.Figures.Base;
     using System;
     using System.Linq;
@@ -19,9 +19,9 @@
         {
             return new Board(GenerateMatrix());
         }
-        private Square<Figure>[,] GenerateMatrix()
+        private Square[,] GenerateMatrix()
         {
-            var matrix = new Square<Figure>[ROWS, COLS];
+            var matrix = new Square[ROWS, COLS];
             var args = STARTING_POSITION.Split('/');
 
             bool shanoLogic = false;
@@ -47,15 +47,15 @@
             return matrix;
         }
 
-        private Square<Figure> GetFigureBySignature(string ch)
+        private Square GetFigureBySignature(string ch)
         {
-            FigureValues figureType = ((FigureValues[])Enum.GetValues(typeof(FigureValues)))
+            FigureNames figureType = ((FigureNames[])Enum.GetValues(typeof(FigureNames)))
                           .FirstOrDefault(x => x.Description().ToLower() == ch.ToLower());
 
             Color color = ch[0] > 90 ? Color.White : Color.Black;
 
             IChessFactory<Figure> figureFactory = new FigureFactory.FigureFactory(figureType, color);
-            return new Square<Figure>(figureFactory.CreateEntity());
+            return new Square(figureFactory.CreateEntity());
         }
     }
 }

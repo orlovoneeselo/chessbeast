@@ -1,13 +1,16 @@
 ﻿namespace ChessBeast.Models.Basis
 {
+    using ChessBeast.Models.Basis.Common;
     using ChessBeast.Models.Figures.Base;
 
-    public class Square<T> where T : Figure
+    public class Square
     {
-        public Square(T figure)
+        public Square(Figure figure)
         {
             this.Figure = figure;
         }
-        public T Figure { get; set; }
+        public Figure Figure { get; set; }
+        public Position Position{ get; }
+        public bool IsLocked { get; set; }
     }
 }
